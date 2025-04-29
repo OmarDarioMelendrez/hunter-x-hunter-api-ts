@@ -1,12 +1,31 @@
-# API Template
+# Hunter x Hunter API
 
-A RESTful API template to be able to integrate your API with API HUB.
+A RESTful API providing data about characters from the Hunter x Hunter universe, including Hunters, Ryodan members, and Chimera Ants.
 
 ## Base URL
 
 The API is available at:
 
 - Development: `http://localhost:3005`
+- Production: (Add your production URL here once deployed)
+
+## Available Endpoints
+
+Currently, the following character groups are available:
+
+- **Hunters:** `/api/hunters`
+- **Ryodan (Phantom Troupe):** `/api/ryodan`
+- **Chimera Ants:** `/api/chimera-ants`
+
+For each group, you can:
+
+- Get all members: e.g., `GET /api/hunters`
+- Get a specific member by ID: e.g., `GET /api/hunters/16`
+
+Additional specific endpoints are available (check Swagger documentation for details):
+
+- Get Hunters by Nen type: `GET /api/hunters/nen/{type}`
+- Get Hunter abilities by ID: `GET /api/hunters/{id}/abilities`
 
 ## Getting Started
 
@@ -17,17 +36,15 @@ The API is available at:
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   cd api-template
-   ```
-
-2. Install dependencies:
-   ```bash
-   pnpm install
-   ```
+1.  Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd hunter-x-hunter-api # Or your repository directory name
+    ```
+2.  Install dependencies:
+    ```bash
+    pnpm install
+    ```
 
 ### Running the Project
 
@@ -41,17 +58,15 @@ The API will be available at `http://localhost:3005`. Nodemon will automatically
 
 **Production Mode:**
 
-1. Build the TypeScript code:
-
-   ```bash
-   pnpm run build
-   ```
-
-2. Start the server:
-   ```bash
-   pnpm start
-   ```
-   The API will be available at `http://localhost:3005`.
+1.  Build the TypeScript code:
+    ```bash
+    pnpm run build
+    ```
+2.  Start the server:
+    ```bash
+    pnpm start
+    ```
+    The API will be available at `http://localhost:3005` (or your configured production port).
 
 ## Authentication
 
@@ -60,7 +75,5 @@ Requests to the API endpoints (prefixed with `/api`) require an API key to be in
 Use the `x-api-key` header to send your API key:
 
 ```
-x-api-key: YOUR_API_KEY
-```
 
-Replace `YOUR_API_KEY` with your actual API key. For development purposes, you can use the key `test_token` (defined in `src/middleware/apiKeyAuth.ts`).
+```

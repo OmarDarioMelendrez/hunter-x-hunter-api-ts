@@ -1,15 +1,11 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Monster Hunter Wild API",
+    "title": "Hunter x Hunter API",
     "version": "1.0.0",
-    "description": "API to get information about monsters and their weaknesses in Monster Hunter Wild"
+    "description": "API to retrieve information about characters (Hunters, Ryodan, Chimera Ants) from the Hunter x Hunter universe."
   },
   "servers": [
-    {
-      "url": "https://38db-2800-810-468-e16-5cb2-b781-5b95-182e.ngrok-free.app",
-      "description": "Ngrok Server"
-    },
     {
       "url": "{protocol}://{hostname}:{port}",
       "description": "Local Development Server",
@@ -27,147 +23,149 @@
       }
     }
   ],
+  "tags": [
+    {
+      "name": "Hunters",
+      "description": "Operations related to Hunters"
+    },
+    {
+      "name": "Ryodan",
+      "description": "Operations related to the Phantom Troupe (Ryodan)"
+    },
+    {
+      "name": "Chimera Ants",
+      "description": "Operations related to the Chimera Ants"
+    },
+    {
+      "name": "Documentation",
+      "description": "API Documentation Links"
+    }
+  ],
   "paths": {
-    "/api/monsters": {
+    "/api/hunters": {
       "get": {
-        "tags": ["Monsters"],
-        "summary": "Get all monsters",
+        "summary": "Get all hunters",
+        "tags": ["Hunters"],
         "responses": {
           "200": {
-            "description": "List of all monsters",
+            "description": "List of all hunters",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Monster"
+                    "$ref": "#/components/schemas/Hunter"
                   }
                 }
               }
             }
           }
-        }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
       }
     },
-    "/api/monsters/{id}": {
+    "/api/hunters/{id}": {
       "get": {
-        "tags": ["Monsters"],
-        "summary": "Get a monster by ID",
+        "summary": "Get a hunter by ID",
+        "tags": ["Hunters"],
         "parameters": [
           {
-            "name": "id",
             "in": "path",
+            "name": "id",
             "required": true,
             "schema": {
               "type": "string"
-            }
+            },
+            "description": "The ID of the Hunter"
           }
         ],
         "responses": {
           "200": {
-            "description": "Monster details",
+            "description": "Hunter details",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Monster"
+                  "$ref": "#/components/schemas/Hunter"
                 }
               }
             }
           },
           "404": {
-            "description": "Monster not found"
+            "description": "Hunter not found"
           }
-        }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
       }
     },
-    "/api/monsters/type/{type}": {
+    "/api/hunters/nen/{type}": {
       "get": {
-        "tags": ["Monsters"],
-        "summary": "Get monsters by type",
+        "summary": "Get hunters by Nen type",
+        "tags": ["Hunters"],
         "parameters": [
           {
+            "in": "path",
             "name": "type",
-            "in": "path",
             "required": true,
             "schema": {
               "type": "string"
-            }
+            },
+            "description": "The Nen type to filter by (e.g., Enhancement, Transmutation)"
           }
         ],
         "responses": {
           "200": {
-            "description": "List of monsters of specified type",
+            "description": "List of hunters of specified Nen type",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Monster"
+                    "$ref": "#/components/schemas/Hunter"
                   }
                 }
               }
             }
           },
           "404": {
-            "description": "No monsters found"
+            "description": "No hunters found with this Nen type"
           }
-        }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
       }
     },
-    "/api/monsters/{id}/weaknesses": {
+    "/api/hunters/{id}/abilities": {
       "get": {
-        "tags": ["Monsters"],
-        "summary": "Get monster weaknesses",
+        "summary": "Get hunter abilities by ID",
+        "tags": ["Hunters"],
         "parameters": [
           {
-            "name": "id",
             "in": "path",
+            "name": "id",
             "required": true,
             "schema": {
               "type": "string"
-            }
+            },
+            "description": "The ID of the Hunter"
           }
         ],
         "responses": {
           "200": {
-            "description": "Monster weaknesses",
+            "description": "Hunter abilities",
             "content": {
               "application/json": {
                 "schema": {
                   "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeaknessInfo"
-                  }
+                  "items": { "type": "string" },
+                  "example": ["Jajanken"]
                 }
               }
             }
           },
           "404": {
-            "description": "Monster not found"
+            "description": "Hunter not found"
           }
-        }
-      }
-    },
-    "/readme": {
-      "get": {
-        "tags": ["Documentation"],
-        "summary": "Get API documentation",
-        "description": "Returns the API documentation in markdown format",
-        "responses": {
-          "200": {
-            "description": "API documentation in markdown format",
-            "content": {
-              "text/markdown": {
-                "schema": {
-                  "type": "string"
-                }
-              }
-            }
-          },
-          "500": {
-            "description": "Error loading documentation"
-          }
-        }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
       }
     },
     "/api/ryodan": {
@@ -279,6 +277,28 @@
         },
         "security": [{ "ApiKeyAuth": [] }]
       }
+    },
+    "/readme": {
+      "get": {
+        "tags": ["Documentation"],
+        "summary": "Get API documentation",
+        "description": "Returns the API documentation in markdown format",
+        "responses": {
+          "200": {
+            "description": "API documentation in markdown format",
+            "content": {
+              "text/markdown": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error loading documentation"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -290,6 +310,61 @@
       }
     },
     "schemas": {
+      "Hunter": {
+        "type": "object",
+        "properties": {
+          "_id": { "type": "integer", "example": 16 },
+          "name": { "type": "string", "example": "Gon Freecss" },
+          "japanese_name": { "type": "string", "example": "ゴン＝フリークス" },
+          "also_known_as": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Gon"]
+          },
+          "gender": {
+            "type": "string",
+            "enum": ["male", "female", "unknown"],
+            "example": "male"
+          },
+          "nen_type": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Enhancement"]
+          },
+          "abilities": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Jajanken"]
+          },
+          "professions": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Hunter"]
+          },
+          "img": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "url",
+                "example": "http://your-domain.com/images/hunters/gon.webp"
+              },
+              "alt": { "type": "string" }
+            }
+          },
+          "state": {
+            "type": "string",
+            "enum": ["alive", "deceased"],
+            "example": "alive"
+          },
+          "family": {
+            "type": "object",
+            "description": "Known family members or affiliations",
+            "example": { "father": "Ging Freecss", "aunt": "Mito Freecss" }
+          },
+          "hunter_star": { "type": "integer", "enum": [0, 1, 3], "example": 1 }
+        }
+      },
       "WeaknessInfo": {
         "type": "object",
         "properties": {
