@@ -122,3 +122,4 @@ build
 Thumbs.db
 
 # Add any other files/directories you want to ignore 
+.vercel
