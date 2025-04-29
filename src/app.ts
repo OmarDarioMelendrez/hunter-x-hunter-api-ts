@@ -1,12 +1,15 @@
 import express from "express";
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
-import monsterRoutes from "./routes/monsterRoutes";
+import huntersRoutes from "./routes/huntersRoutes";
+import ryodanRoutes from "./routes/ryodanRoutes";
+import chimeraAntsRoutes from "./routes/chimeraAntsRoutes";
 import { DOMAIN, SITE_PORT } from "./lib/constants";
 import swaggerDocument from "./swagger.json";
 import { validateApiKey } from "./middleware/apiKeyAuth";
 import { readFileSync } from "fs";
 import { join } from "path";
+import path from "path";
 
 const app = express();
 const PORT = process.env.PORT || SITE_PORT;
@@ -14,6 +17,9 @@ const PORT = process.env.PORT || SITE_PORT;
 // Middleware
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from the 'public' directory
+app.use(express.static(path.join(__dirname, "..", "public")));
 
 // Swagger docs
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
@@ -41,7 +47,9 @@ app.get("/readme", (req, res) => {
 app.use("/api", validateApiKey);
 
 // Routes
-app.use("/api/monsters", monsterRoutes);
+app.use("/api/hunters", huntersRoutes);
+app.use("/api/ryodan", ryodanRoutes);
+app.use("/api/chimera-ants", chimeraAntsRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

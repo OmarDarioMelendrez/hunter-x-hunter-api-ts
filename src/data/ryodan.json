@@ -1,0 +1,242 @@
+[
+  {
+    "_id": 1,
+    "name": "Bonolenov Ndongo",
+    "japanese_name": "ボノレノフ＝ンドンゴ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Conjuration"],
+    "abilities": ["Battle Cantabile"],
+    "professions": ["Phantom Troupe Member #10"],
+    "img": {
+      "url": "/images/ryodan/bonolenov.webp",
+      "alt": "Bonolenov Ndongo Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 2,
+    "name": "Chrollo Lucilfer",
+    "japanese_name": "クロロ＝ルシルフル",
+    "also_known_as": ["Boss", "Phantom Troupe Member #0"],
+    "gender": "male",
+    "nen_type": ["Specialization"],
+    "abilities": ["Skill Hunter", "Double Face"],
+    "professions": ["Leader of the Phantom Troupe"],
+    "img": {
+      "url": "/images/ryodan/chrollo.webp",
+      "alt": "Chrollo Lucilfer Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 3,
+    "name": "Feitan Portor",
+    "japanese_name": "フェイタン＝ポートオ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Transmutation"],
+    "abilities": ["Pain Packer", "Rising Sun"],
+    "professions": ["Phantom Troupe Member #2"],
+    "img": {
+      "url": "/images/ryodan/feitan.webp",
+      "alt": "Feitan Portor Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 4,
+    "name": "Franklin Bordeaux",
+    "japanese_name": "フランクリン＝ボルドー",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": ["Double Machine Gun"],
+    "professions": ["Phantom Troupe Member #7"],
+    "img": {
+      "url": "/images/ryodan/franklin.webp",
+      "alt": "Franklin Bordeaux Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 5,
+    "name": "Kalluto Zoldyck",
+    "japanese_name": "カルト＝ゾルディック",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Paper Manipulation"],
+    "professions": ["Phantom Troupe Member #4", "Assassin"],
+    "img": {
+      "url": "/images/ryodan/kalluto.webp",
+      "alt": "Kalluto Zoldyck Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "siblings": ["Killua", "Illumi", "Milluki", "Alluka"]
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 6,
+    "name": "Kortopi",
+    "japanese_name": "コルトピ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Conjuration"],
+    "abilities": ["Gallery Fake"],
+    "professions": ["Phantom Troupe Member #12"],
+    "img": {
+      "url": "/images/ryodan/kortopi.webp",
+      "alt": "Kortopi Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 7,
+    "name": "Machi Komachine",
+    "japanese_name": "マチ＝コマチネ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Transmutation"],
+    "abilities": ["Nen Threads"],
+    "professions": ["Phantom Troupe Member #3"],
+    "img": {
+      "url": "/images/ryodan/machi.webp",
+      "alt": "Machi Komachine Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 8,
+    "name": "Nobunaga Hazama",
+    "japanese_name": "ノブナガ＝ハザマ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Exceptional swordsmanship"],
+    "professions": ["Phantom Troupe Member #1"],
+    "img": {
+      "url": "/images/ryodan/nobunaga.webp",
+      "alt": "Nobunaga Hazama Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 9,
+    "name": "Omokage",
+    "japanese_name": "オモカゲ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Puppet Master (Shadow Manipulation)"],
+    "professions": ["Former Phantom Troupe Member (Movie Only)"],
+    "img": {
+      "url": "/images/ryodan/omokage.webp",
+      "alt": "Omokage Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 10,
+    "name": "Pakunoda",
+    "japanese_name": "パクノダ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Specialization"],
+    "abilities": ["Memory Bomb", "Memory Reading"],
+    "professions": ["Phantom Troupe Member #9"],
+    "img": {
+      "url": "/images/ryodan/pakunoda.webp",
+      "alt": "Pakunoda Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 11,
+    "name": "Phinks Magkav",
+    "japanese_name": "フィンクス＝マグカブ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Ripper Cyclotron"],
+    "professions": ["Phantom Troupe Member #5"],
+    "img": {
+      "url": "/images/ryodan/phinks.webp",
+      "alt": "Phinks Magkav Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 12,
+    "name": "Shalnark",
+    "japanese_name": "シャルナーク",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Black Voice"],
+    "professions": ["Phantom Troupe Member #6"],
+    "img": {
+      "url": "/images/ryodan/shalnark.webp",
+      "alt": "Shalnark Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 13,
+    "name": "Shizuku Murasaki",
+    "japanese_name": "シズク＝ムラサキ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Conjuration"],
+    "abilities": ["Blinky (Vacuum Cleaner)"],
+    "professions": ["Phantom Troupe Member #8"],
+    "img": {
+      "url": "/images/ryodan/shizuku.webp",
+      "alt": "Shizuku Murasaki Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 14,
+    "name": "Uvogin",
+    "japanese_name": "ウヴォーギン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Superhuman Strength"],
+    "professions": ["Phantom Troupe Member #11"],
+    "img": {
+      "url": "/images/ryodan/uvogin.webp",
+      "alt": "Uvogin Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  }
+]

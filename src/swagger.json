@@ -169,6 +169,116 @@
           }
         }
       }
+    },
+    "/api/ryodan": {
+      "get": {
+        "summary": "Get all Ryodan members",
+        "tags": ["Ryodan"],
+        "responses": {
+          "200": {
+            "description": "List of all Ryodan members",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RyodanMember"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
+      }
+    },
+    "/api/ryodan/{id}": {
+      "get": {
+        "summary": "Get a Ryodan member by ID",
+        "tags": ["Ryodan"],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The ID of the Ryodan member"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Ryodan member details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RyodanMember"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Ryodan member not found"
+          }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
+      }
+    },
+    "/api/chimera-ants": {
+      "get": {
+        "summary": "Get all Chimera Ants",
+        "tags": ["Chimera Ants"],
+        "responses": {
+          "200": {
+            "description": "List of all Chimera Ants",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChimeraAnt"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
+      }
+    },
+    "/api/chimera-ants/{id}": {
+      "get": {
+        "summary": "Get a Chimera Ant by ID",
+        "tags": ["Chimera Ants"],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "The ID of the Chimera Ant"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Chimera Ant details",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChimeraAnt"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Chimera Ant not found"
+          }
+        },
+        "security": [{ "ApiKeyAuth": [] }]
+      }
     }
   },
   "components": {
@@ -284,6 +394,75 @@
               "type": "string"
             }
           }
+        }
+      },
+      "RyodanMember": {
+        "type": "object",
+        "properties": {
+          "_id": { "type": "integer", "example": 1 },
+          "name": { "type": "string", "example": "Chrollo Lucilfer" },
+          "japanese_name": {
+            "type": "string",
+            "example": "クロロ＝ルシルフル"
+          },
+          "also_known_as": { "type": "array", "items": { "type": "string" } },
+          "gender": { "type": "string", "example": "male" },
+          "nen_type": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Specialization"]
+          },
+          "abilities": { "type": "array", "items": { "type": "string" } },
+          "professions": { "type": "array", "items": { "type": "string" } },
+          "img": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "url",
+                "example": "http://your-domain.com/images/ryodan/chrollo.webp"
+              },
+              "alt": { "type": "string" }
+            }
+          },
+          "state": { "type": "string", "example": "alive" },
+          "family": { "type": "object" },
+          "hunter_star": { "type": "integer", "example": 0 }
+        }
+      },
+      "ChimeraAnt": {
+        "type": "object",
+        "properties": {
+          "_id": { "type": "integer", "example": 29 },
+          "name": { "type": "string", "example": "Meruem" },
+          "japanese_name": { "type": "string", "example": "メルエム" },
+          "also_known_as": { "type": "array", "items": { "type": "string" } },
+          "gender": { "type": "string", "example": "male" },
+          "nen_type": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Specialization"]
+          },
+          "abilities": { "type": "array", "items": { "type": "string" } },
+          "professions": {
+            "type": "array",
+            "items": { "type": "string" },
+            "example": ["Chimera Ant King"]
+          },
+          "img": {
+            "type": "object",
+            "properties": {
+              "url": {
+                "type": "string",
+                "format": "url",
+                "example": "http://your-domain.com/images/chimera-ants/meruem.webp"
+              },
+              "alt": { "type": "string" }
+            }
+          },
+          "state": { "type": "string", "example": "deceased" },
+          "family": { "type": "object" },
+          "hunter_star": { "type": "integer", "example": 0 }
         }
       }
     }

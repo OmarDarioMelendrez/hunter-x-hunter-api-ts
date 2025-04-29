@@ -1,0 +1,775 @@
+[
+  {
+    "_id": 1,
+    "name": "Alligator",
+    "japanese_name": "アリゲーター型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/alligator.webp",
+      "alt": "Alligator Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 2,
+    "name": "Baro",
+    "japanese_name": "バロ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/baro.webp",
+      "alt": "Baro Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 3,
+    "name": "Bat",
+    "japanese_name": "バット",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/bat.webp",
+      "alt": "Bat Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 4,
+    "name": "Bihorn",
+    "japanese_name": "ビホーン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant Squadron Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/bihorn.webp",
+      "alt": "Bihorn Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 5,
+    "name": "Bloster",
+    "japanese_name": "ブロスター",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/bloster.webp",
+      "alt": "Bloster Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 6,
+    "name": "Boki",
+    "japanese_name": "ボキ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/boki.webp",
+      "alt": "Boki Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 7,
+    "name": "Centipede",
+    "japanese_name": "ムカデ型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/centipede.webp",
+      "alt": "Centipede Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 8,
+    "name": "Cheetu",
+    "japanese_name": "チーター型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Speed of Sound"],
+    "professions": ["Chimera Ant Squadron Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/cheetu.webp",
+      "alt": "Cheetu Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 10,
+    "name": "Colt",
+    "japanese_name": "コルト",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant Squadron Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/colt.webp",
+      "alt": "Colt Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 11,
+    "name": "Flutter",
+    "japanese_name": "フラッター",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant Squadron Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/flutter.webp",
+      "alt": "Flutter Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 12,
+    "name": "Frog",
+    "japanese_name": "カエル型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/frog.webp",
+      "alt": "Frog Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 13,
+    "name": "Gyro",
+    "japanese_name": "ジャイロ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Underground King", "Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/gyro.webp",
+      "alt": "Gyro Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 14,
+    "name": "Brothers Ortho",
+    "japanese_name": "オルト兄弟",
+    "also_known_as": ["Ortho Siblings"],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ants"],
+    "img": {
+      "url": "/images/chimeraAnts/brothersOrtho.webp",
+      "alt": "Ortho Siblings Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 15,
+    "name": "Hina",
+    "japanese_name": "ヒナ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": ["Cleansing Type Nen Ability"],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/hina.webp",
+      "alt": "Hina Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 16,
+    "name": "Hollow",
+    "japanese_name": "ホロウ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/hollow.webp",
+      "alt": "Hollow Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 17,
+    "name": "Chimera Ant with Gun",
+    "japanese_name": "銃を持ったキメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/chimeraAntWithGun.webp",
+      "alt": "Chimera Ant with Gun"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 18,
+    "name": "Chimera Ant Panda",
+    "japanese_name": "パンダ型キメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/chimeraPanda.webp",
+      "alt": "Panda Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 19,
+    "name": "Chimera Ant Octopus",
+    "japanese_name": "タコ型キメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/chimeraOctopus.webp",
+      "alt": "Octopus Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 20,
+    "name": "Hormiga Quimera Reina",
+    "japanese_name": "女王キメラアント",
+    "also_known_as": ["Queen Chimera Ant"],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant Queen"],
+    "img": {
+      "url": "/images/chimeraAnts/queenChimera.webp",
+      "alt": "Chimera Ant Queen"
+    },
+    "state": "deceased",
+    "family": {
+      "offspring": ["Meruem", "Royal Guards"]
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 21,
+    "name": "Ikalgo",
+    "japanese_name": "イカルゴ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Living Dead Dolls"],
+    "professions": ["Chimera Ant", "Hunter Ally"],
+    "img": {
+      "url": "/images/chimeraAnts/ikalgo.webp",
+      "alt": "Ikalgo Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 22,
+    "name": "Inzagi",
+    "japanese_name": "インザギ",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant (Messenger)"],
+    "img": {
+      "url": "/images/chimeraAnts/inzagi.webp",
+      "alt": "Inzagi Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 23,
+    "name": "Kite (Chimera Ant form)",
+    "japanese_name": "カイト (転生)",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant", "Former Hunter"],
+    "img": {
+      "url": "/images/chimeraAnts/kite.webp",
+      "alt": "Kite Chimera Ant Form Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 24,
+    "name": "Koala",
+    "japanese_name": "コアラ型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/koala.webp",
+      "alt": "Koala Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 25,
+    "name": "Leol",
+    "japanese_name": "レオル",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Specialization"],
+    "abilities": ["Rental Pod"],
+    "professions": ["Chimera Ant Squadron Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/leol.webp",
+      "alt": "Leol Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 26,
+    "name": "Maenore",
+    "japanese_name": "マエノレ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/maenore.webp",
+      "alt": "Maenore Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 27,
+    "name": "Meleoron",
+    "japanese_name": "メレオロン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Specialization"],
+    "abilities": ["Perfect Plan"],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/meleoron.webp",
+      "alt": "Meleoron Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 28,
+    "name": "Menthuthuyoupi",
+    "japanese_name": "モントゥトゥユピー",
+    "also_known_as": ["Youpi"],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Rage Incarnate"],
+    "professions": ["Royal Guard of Meruem"],
+    "img": {
+      "url": "/images/chimeraAnts/menthuthuyoupi.webp",
+      "alt": "Menthuthuyoupi Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 29,
+    "name": "Meruem",
+    "japanese_name": "メルエム",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Specialization"],
+    "abilities": ["Aura Synthesis"],
+    "professions": ["Chimera Ant King"],
+    "img": {
+      "url": "/images/chimeraAnts/meruem.webp",
+      "alt": "Meruem Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {
+      "mother": "Chimera Ant Queen"
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 30,
+    "name": "Mosquito",
+    "japanese_name": "モスキート型キメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/mosquito.webp",
+      "alt": "Mosquito Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 31,
+    "name": "Neferpitou",
+    "japanese_name": "ネフェルピトー",
+    "also_known_as": ["Pitou"],
+    "gender": "unknown",
+    "nen_type": ["Specialization"],
+    "abilities": ["Doctor Blythe", "Terpsichora"],
+    "professions": ["Royal Guard of Meruem"],
+    "img": {
+      "url": "/images/chimeraAnts/neferpitou.webp",
+      "alt": "Neferpitou Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {
+      "monarch": "Meruem"
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 32,
+    "name": "Palm Siberia (Chimera Ant)",
+    "japanese_name": "パーム＝シベリア",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Wink Blue"],
+    "professions": ["Hunter", "Chimera Ant (modified)"],
+    "img": {
+      "url": "/images/chimeraAnts/palm.webp",
+      "alt": "Palm Siberia Chimera Ant Form"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 33,
+    "name": "Peggy",
+    "japanese_name": "ペギー",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Advisor to the Chimera Ant Queen"],
+    "img": {
+      "url": "/images/chimeraAnts/peggy.webp",
+      "alt": "Peggy Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 34,
+    "name": "Pell",
+    "japanese_name": "ペル",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/pell.webp",
+      "alt": "Pell Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 35,
+    "name": "Pig",
+    "japanese_name": "豚型キメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/pig.webp",
+      "alt": "Pig Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 36,
+    "name": "Pike",
+    "japanese_name": "パイク",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/pike.webp",
+      "alt": "Pike Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 37,
+    "name": "Rammot",
+    "japanese_name": "ラモット",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/rammot.webp",
+      "alt": "Rammot Chimera Ant"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 38,
+    "name": "Remora",
+    "japanese_name": "レモラ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/remora.webp",
+      "alt": "Remora Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 39,
+    "name": "Rhino",
+    "japanese_name": "サイ型キメラアント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/rhino.webp",
+      "alt": "Rhino Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 40,
+    "name": "Shaiapouf",
+    "japanese_name": "シャウアプフ",
+    "also_known_as": ["Pouf"],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Spiritual Message", "Beelzebub"],
+    "professions": ["Royal Guard of Meruem"],
+    "img": {
+      "url": "/images/chimeraAnts/shaiapouf.webp",
+      "alt": "Shaiapouf Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {
+      "monarch": "Meruem"
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 41,
+    "name": "Shidore",
+    "japanese_name": "シドレ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/shidore.webp",
+      "alt": "Shidore Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 42,
+    "name": "Taragette",
+    "japanese_name": "タラゲッテ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/taragette.webp",
+      "alt": "Taragette Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 43,
+    "name": "Tortuga",
+    "japanese_name": "カメ型キメラアント",
+    "also_known_as": [],
+    "gender": "unknown",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/turtle.webp",
+      "alt": "Turtle Chimera Ant"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 44,
+    "name": "Welfin",
+    "japanese_name": "ウェルフィン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Missile Man"],
+    "professions": ["Chimera Ant"],
+    "img": {
+      "url": "/images/chimeraAnts/welfin.webp",
+      "alt": "Welfin Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 45,
+    "name": "Yunju",
+    "japanese_name": "ユンジュ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Chimera Ant Squad Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/yunju.webp",
+      "alt": "Yunju Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 46,
+    "name": "Zazan",
+    "japanese_name": "ザザン",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Monster Queen"],
+    "professions": ["Chimera Ant Squad Leader"],
+    "img": {
+      "url": "/images/chimeraAnts/zazan.webp",
+      "alt": "Zazan Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  }
+]

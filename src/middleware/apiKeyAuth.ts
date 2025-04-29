@@ -1,4 +1,4 @@
-const API_KEYS = new Set(["test_token"]);
+const API_KEYS = new Set(["$9#zL4Pa&&tpecCS"]);
 
 export const validateApiKey = (req: any, res: any, next: any) => {
   const apiKey = req.header("x-api-key");

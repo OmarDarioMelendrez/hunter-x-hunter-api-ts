@@ -1,0 +1,1052 @@
+[
+  {
+    "_id": 1,
+    "name": "Basho",
+    "japanese_name": "バショウ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": ["Poetry Creation"],
+    "professions": ["Bodyguard", "Hunter"],
+    "img": {
+      "url": "/images/hunters/basho.webp",
+      "alt": "Basho Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 2,
+    "name": "Beans",
+    "japanese_name": "ビーンズ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Secretary", "Hunter Association Staff"],
+    "img": {
+      "url": "/images/hunters/beans.webp",
+      "alt": "Beans Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 3,
+    "name": "Beyond Netero",
+    "japanese_name": "ビヨンド＝ネテロ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Explorer", "Leader of Dark Continent Expedition Team"],
+    "img": {
+      "url": "/images/hunters/beyond.webp",
+      "alt": "Beyond Netero Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "father": "Isaac Netero"
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 4,
+    "name": "Binolt",
+    "japanese_name": "ビノールト",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Serial Killer", "Survivor"],
+    "img": {
+      "url": "/images/hunters/binolt.webp",
+      "alt": "Binolt Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 5,
+    "name": "Biscuit Krueger",
+    "japanese_name": "ビスケット＝クルーガー",
+    "also_known_as": ["Bisky"],
+    "gender": "female",
+    "nen_type": ["Transmutation"],
+    "abilities": ["Magical Esthetician"],
+    "professions": ["Hunter", "Trainer"],
+    "img": {
+      "url": "/images/hunters/biscuit.webp",
+      "alt": "Biscuit Krueger Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 6,
+    "name": "Botobai Gigante",
+    "japanese_name": "ボトバイ＝ギガンテ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Dragon"],
+    "img": {
+      "url": "/images/hunters/botobai.webp",
+      "alt": "Botobai Gigante Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 7,
+    "name": "Buhara",
+    "japanese_name": "ブハラ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Exam Proctor", "Gourmet Hunter"],
+    "img": {
+      "url": "/images/hunters/buhara.webp",
+      "alt": "Buhara Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 8,
+    "name": "Cheadle Yorkshire",
+    "japanese_name": "チードル＝ヨークシャー",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": [
+      "Hunter Association Zodiacs - Dog",
+      "Medical Hunter",
+      "Chairwoman of the Hunter Association"
+    ],
+    "img": {
+      "url": "/images/hunters/cheadle.webp",
+      "alt": "Cheadle Yorkshire Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 9,
+    "name": "Cluck",
+    "japanese_name": "クルック",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Chicken"],
+    "img": {
+      "url": "/images/hunters/cluck.webp",
+      "alt": "Cluck Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 10,
+    "name": "Elena",
+    "japanese_name": "エレナ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": ["Spellcasting through speech (related to Greed Island)"],
+    "professions": ["Guide in Greed Island"],
+    "img": {
+      "url": "/images/hunters/elena.webp",
+      "alt": "Elena Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "sibling": "List (twin brother)"
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 11,
+    "name": "Examiner 288th Hunter Exam",
+    "japanese_name": "第288回ハンター試験の試験官",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Exam Proctor"],
+    "img": {
+      "url": "/images/hunters/examiner-version-288.webp",
+      "alt": "288th Hunter Exam Examiner"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 12,
+    "name": "Gashta Bellam",
+    "japanese_name": "ガシュタ＝ベルアム",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Sheep"],
+    "img": {
+      "url": "/images/hunters/gashta.webp",
+      "alt": "Gashta Bellam Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 13,
+    "name": "Geru",
+    "japanese_name": "ゲル",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Exam Proctor"],
+    "img": {
+      "url": "/images/hunters/geru.webp",
+      "alt": "Geru Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 14,
+    "name": "Ging Freecss",
+    "japanese_name": "ジン＝フリークス",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": [],
+    "professions": ["Hunter", "Founder of Greed Island"],
+    "img": {
+      "url": "/images/hunters/ging.webp",
+      "alt": "Ging Freecss Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "son": "Gon Freecss"
+    },
+    "hunter_star": 3
+  },
+  {
+    "_id": 15,
+    "name": "Ginta",
+    "japanese_name": "ギンタ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Goat"],
+    "img": {
+      "url": "/images/hunters/ginta.webp",
+      "alt": "Ginta Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 16,
+    "name": "Gon Freecss",
+    "japanese_name": "ゴン＝フリークス",
+    "also_known_as": ["Gon"],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Jajanken"],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/gon.webp",
+      "alt": "Gon Freecss Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "father": "Ging Freecss",
+      "aunt": "Mito Freecss"
+    },
+    "hunter_star": 1
+  },
+  {
+    "_id": 17,
+    "name": "Goreinu",
+    "japanese_name": "ゴレイヌ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["White Gorilla", "Black Gorilla"],
+    "professions": ["Greed Island Player"],
+    "img": {
+      "url": "/images/hunters/goreinu.webp",
+      "alt": "Goreinu Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 18,
+    "name": "Hanzo",
+    "japanese_name": "ハンゾー",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": [],
+    "professions": ["Ninja", "Hunter"],
+    "img": {
+      "url": "/images/hunters/hanzo.webp",
+      "alt": "Hanzo Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 19,
+    "name": "Hisoka Morow",
+    "japanese_name": "ヒソカ＝モロウ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Transmutation"],
+    "abilities": ["Bungee Gum", "Texture Surprise"],
+    "professions": ["Hunter", "Magician"],
+    "img": {
+      "url": "/images/hunters/hisoka.webp",
+      "alt": "Hisoka Morow Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 20,
+    "name": "Ickshonpe Kaztouger",
+    "japanese_name": "イクションペ＝カズトウガー",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Boar"],
+    "img": {
+      "url": "/images/hunters/ickshonpe.webp",
+      "alt": "Ickshonpe Kaztouger Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 21,
+    "name": "Illumi Zoldyck",
+    "japanese_name": "イルミ＝ゾルディック",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Needle People", "Hypnotic Needles"],
+    "professions": ["Assassin", "Hunter"],
+    "img": {
+      "url": "/images/hunters/illumi.webp",
+      "alt": "Illumi Zoldyck Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "siblings": [
+        "Killua Zoldyck",
+        "Milluki Zoldyck",
+        "Alluka Zoldyck",
+        "Kalluto Zoldyck"
+      ]
+    },
+    "hunter_star": 0
+  },
+  {
+    "_id": 22,
+    "name": "Isaac Netero",
+    "japanese_name": "アイザック＝ネテロ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": ["100-Type Guanyin Bodhisattva"],
+    "professions": ["Chairman of the Hunter Association", "Martial Artist"],
+    "img": {
+      "url": "/images/hunters/isaac.webp",
+      "alt": "Isaac Netero Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {
+      "son": "Beyond Netero"
+    },
+    "hunter_star": 3
+  },
+  {
+    "_id": 23,
+    "name": "Ivlenkov",
+    "japanese_name": "イヴレンコフ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/ivlenkov.webp",
+      "alt": "Ivlenkov Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 24,
+    "name": "Izunavi",
+    "japanese_name": "イズナビ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter", "Kurapika's Nen Teacher"],
+    "img": {
+      "url": "/images/hunters/izunavi.webp",
+      "alt": "Izunavi Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 25,
+    "name": "Jeitsari",
+    "japanese_name": "ジェイツァリ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Horse"],
+    "img": {
+      "url": "/images/hunters/jeitsari.webp",
+      "alt": "Jeitsari Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 26,
+    "name": "Kanzai",
+    "japanese_name": "カンザイ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Tiger"],
+    "img": {
+      "url": "/images/hunters/kanzai.webp",
+      "alt": "Kanzai Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 27,
+    "name": "Khara",
+    "japanese_name": "カラ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Snake"],
+    "img": {
+      "url": "/images/hunters/khara.webp",
+      "alt": "Khara Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 28,
+    "name": "Killua Zoldyck",
+    "japanese_name": "キルア＝ゾルディック",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Transmutation"],
+    "abilities": ["Godspeed", "Thunderbolt"],
+    "professions": ["Hunter", "Assassin"],
+    "img": {
+      "url": "/images/hunters/killua.webp",
+      "alt": "Killua Zoldyck Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "father": "Silva Zoldyck",
+      "mother": "Kikyo Zoldyck",
+      "siblings": ["Illumi", "Milluki", "Alluka", "Kalluto"]
+    },
+    "hunter_star": 1
+  },
+  {
+    "_id": 29,
+    "name": "Kite",
+    "japanese_name": "カイト",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Conjuration"],
+    "abilities": ["Crazy Slots"],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/kite.webp",
+      "alt": "Kite Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 30,
+    "name": "Knov",
+    "japanese_name": "ノヴ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation", "Conjuration"],
+    "abilities": ["Hide and Seek", "Scream"],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/knov.webp",
+      "alt": "Knov Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 31,
+    "name": "Knuckle Bine",
+    "japanese_name": "ナックル＝バイン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": ["Hakoware (Amortizing Power Redirector)"],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/knuckle.webp",
+      "alt": "Knuckle Bine Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 32,
+    "name": "Kurapika",
+    "japanese_name": "クラピカ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Conjuration", "Specialization"],
+    "abilities": ["Chain Jail", "Judgment Chain", "Emperor Time"],
+    "professions": ["Hunter", "Bodyguard"],
+    "img": {
+      "url": "/images/hunters/kurapika.webp",
+      "alt": "Kurapika Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {
+      "clan": "Kurta Clan"
+    },
+    "hunter_star": 1
+  },
+  {
+    "_id": 33,
+    "name": "Leorio Paradinight",
+    "japanese_name": "レオリオ＝パラディナイト",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": ["Remote Punch"],
+    "professions": ["Medical Student", "Hunter"],
+    "img": {
+      "url": "/images/hunters/leorio.webp",
+      "alt": "Leorio Paradinight Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 34,
+    "name": "Linne Horsdoeuvre",
+    "japanese_name": "リーネ＝オルスドゥールヴ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Body Alteration Specialist"],
+    "img": {
+      "url": "/images/hunters/linne.webp",
+      "alt": "Linne Horsdoeuvre Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 35,
+    "name": "Linssen",
+    "japanese_name": "リンセン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Bodyguard"],
+    "img": {
+      "url": "/images/hunters/linssen.webp",
+      "alt": "Linssen Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 36,
+    "name": "Lippo",
+    "japanese_name": "リッポー",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Examiner", "Game Master of Trick Tower"],
+    "img": {
+      "url": "/images/hunters/lippo.webp",
+      "alt": "Lippo Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 37,
+    "name": "Masta",
+    "japanese_name": "マスタ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/masta.webp",
+      "alt": "Masta Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 38,
+    "name": "Menchi",
+    "japanese_name": "メンチ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Gourmet Hunter", "Examiner"],
+    "img": {
+      "url": "/images/hunters/menchi.webp",
+      "alt": "Menchi Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 39,
+    "name": "Mizaistom Nana",
+    "japanese_name": "ミザイストム＝ナナ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Ox", "Lawyer"],
+    "img": {
+      "url": "/images/hunters/mizaistom.webp",
+      "alt": "Mizaistom Nana Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 40,
+    "name": "Morel Mackernasey",
+    "japanese_name": "モラウ＝マッカーナーシ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Deep Purple"],
+    "professions": ["Hunter", "Teacher"],
+    "img": {
+      "url": "/images/hunters/morel.webp",
+      "alt": "Morel Mackernasey Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 41,
+    "name": "Palm Siberia",
+    "japanese_name": "パーム＝シベリア",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": ["Enhancement"],
+    "abilities": ["Wink Blue"],
+    "professions": ["Hunter", "Assistant"],
+    "img": {
+      "url": "/images/hunters/palm.webp",
+      "alt": "Palm Siberia Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 42,
+    "name": "Pariston Hill",
+    "japanese_name": "パリストン＝ヒル",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Rat", "Former Vice-Chairman"],
+    "img": {
+      "url": "/images/hunters/pariston.webp",
+      "alt": "Pariston Hill Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 43,
+    "name": "Piyon",
+    "japanese_name": "ピヨン",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Rabbit"],
+    "img": {
+      "url": "/images/hunters/piyon.webp",
+      "alt": "Piyon Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 44,
+    "name": "Pokkle",
+    "japanese_name": "ポックル",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Emission"],
+    "abilities": [],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/pokkle.webp",
+      "alt": "Pokkle Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 45,
+    "name": "Quizzing Lady",
+    "japanese_name": "クイズおばさん",
+    "also_known_as": ["Quiz Old Lady"],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Quiz Giver during Hunter Exam"],
+    "img": {
+      "url": "/images/hunters/quizzing.webp",
+      "alt": "Quizzing Lady Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 46,
+    "name": "Saccho Kobayakawa",
+    "japanese_name": "サッチョウ＝コバヤカワ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Rooster", "Detective"],
+    "img": {
+      "url": "/images/hunters/saccho.webp",
+      "alt": "Saccho Kobayakawa Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 47,
+    "name": "Saiyu",
+    "japanese_name": "サイユウ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Zodiacs - Monkey"],
+    "img": {
+      "url": "/images/hunters/saiyu.webp",
+      "alt": "Saiyu Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 48,
+    "name": "Sanbika Norton",
+    "japanese_name": "サンビカ＝ノートン",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/sanbika.webp",
+      "alt": "Sanbika Norton Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 49,
+    "name": "Satotz",
+    "japanese_name": "サトツ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Exam Proctor", "Archaeologist"],
+    "img": {
+      "url": "/images/hunters/satotz.webp",
+      "alt": "Satotz Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 50,
+    "name": "Seaquant",
+    "japanese_name": "シーコァント",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/seaquant.webp",
+      "alt": "Seaquant Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 51,
+    "name": "Senritsu",
+    "japanese_name": "センリツ",
+    "also_known_as": ["Melody"],
+    "gender": "female",
+    "nen_type": ["Emission"],
+    "abilities": ["Melody's Song"],
+    "professions": ["Hunter", "Bodyguard"],
+    "img": {
+      "url": "/images/hunters/senritsu.webp",
+      "alt": "Senritsu (Melody) Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 52,
+    "name": "Shachmono Tocino",
+    "japanese_name": "シャチモノ＝トシーノ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/shachmono.webp",
+      "alt": "Shachmono Tocino Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 53,
+    "name": "Shalnark",
+    "japanese_name": "シャルナーク",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Black Voice"],
+    "professions": ["Phantom Troupe Member #6", "Hunter"],
+    "img": {
+      "url": "/images/hunters/shalnark.webp",
+      "alt": "Shalnark Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 54,
+    "name": "Shoot McMahon",
+    "japanese_name": "シュート＝マクマホン",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Manipulation"],
+    "abilities": ["Hotel Rafflesia"],
+    "professions": ["Hunter"],
+    "img": {
+      "url": "/images/hunters/shoot.webp",
+      "alt": "Shoot McMahon Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 55,
+    "name": "Togari",
+    "japanese_name": "トガリ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Exam Proctor", "Executioner"],
+    "img": {
+      "url": "/images/hunters/togari.webp",
+      "alt": "Togari Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 56,
+    "name": "Tokyarine",
+    "japanese_name": "トキヤリネ",
+    "also_known_as": [],
+    "gender": "female",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/tokyarine.webp",
+      "alt": "Tokyarine Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 57,
+    "name": "Tsezguerra",
+    "japanese_name": "ツェズゲラ",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": ["Enhancement"],
+    "abilities": [],
+    "professions": ["Greed Island Player", "Hunter"],
+    "img": {
+      "url": "/images/hunters/tsezguerra.webp",
+      "alt": "Tsezguerra Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 58,
+    "name": "Wing",
+    "japanese_name": "ウイング",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Nen Teacher", "Hunter"],
+    "img": {
+      "url": "/images/hunters/wing.webp",
+      "alt": "Wing Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 1
+  },
+  {
+    "_id": 59,
+    "name": "Zetsk Bellam",
+    "japanese_name": "ゼツク＝ベルアム",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Hunter Association Member"],
+    "img": {
+      "url": "/images/hunters/zetsk.webp",
+      "alt": "Zetsk Bellam Hunter x Hunter"
+    },
+    "state": "alive",
+    "family": {},
+    "hunter_star": 0
+  },
+  {
+    "_id": 60,
+    "name": "Zzigg Zoldyck",
+    "japanese_name": "ジグ＝ゾルディック",
+    "also_known_as": [],
+    "gender": "male",
+    "nen_type": [],
+    "abilities": [],
+    "professions": ["Adventurer", "Explorer"],
+    "img": {
+      "url": "/images/hunters/zzigg.webp",
+      "alt": "Zzigg Zoldyck Hunter x Hunter"
+    },
+    "state": "deceased",
+    "family": {
+      "descendants": "Zoldyck Family"
+    },
+    "hunter_star": 0
+  }
+]
