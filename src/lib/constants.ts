@@ -10,5 +10,4 @@ const vercelDomain = process.env.VERCEL_URL
 // Fallback to localhost if not on Vercel
 export const DOMAIN = vercelDomain || `http://localhost:${SITE_PORT}`;
 
-// Optional: Log the determined domain during startup (in app.ts maybe, not here)
-// console.log(`API Domain configured as: ${DOMAIN}`);
+console.log(`API Domain configured as: ${DOMAIN}`);
