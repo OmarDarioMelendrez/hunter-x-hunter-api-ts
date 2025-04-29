@@ -24,6 +24,12 @@ app.use(express.json());
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, "..", "public")));
 
+// --- Add Root Route Handler ---
+app.get("/", (req, res) => {
+  res.status(200).json({ message: "Welcome to the Hunter x Hunter API!" });
+});
+// --- End Root Route Handler ---
+
 // Swagger docs
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
