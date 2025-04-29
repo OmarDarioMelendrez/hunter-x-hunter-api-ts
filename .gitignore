@@ -119,4 +119,6 @@ build
 .DS_Store
 
 # Windows
-Thumbs.db 
+Thumbs.db
+
+# Add any other files/directories you want to ignore 

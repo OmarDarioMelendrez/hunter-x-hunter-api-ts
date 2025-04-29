@@ -72,7 +72,17 @@ The API will be available at `http://localhost:3005`. Nodemon will automatically
 
 Requests to the API endpoints (prefixed with `/api`) require an API key to be included in the request headers.
 
-Use the `x-api-key` header to send your API key:
+**Setup:**
+
+1.  Create a `.env` file in the root of the project if it doesn't exist.
+2.  Add the following line to the `.env` file. Replace the example keys with your actual desired keys, separated by commas (no spaces around the commas unless the space is part of the key):
+    ```dotenv
+    API_KEYS=YOUR_SECRET_API_KEY_1,ANOTHER_VALID_KEY,TEST_TOKEN_KEY
+    ```
+
+**Usage:**
+
+Include **one** of the valid API keys in the `x-api-key` header of your requests:
 
 ```
 
