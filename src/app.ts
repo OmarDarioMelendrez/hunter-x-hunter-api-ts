@@ -60,8 +60,9 @@ app.use("/api/hunters", huntersRoutes);
 app.use("/api/ryodan", ryodanRoutes);
 app.use("/api/chimera-ants", chimeraAntsRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-  console.log(`Swagger documentation available at ${DOMAIN}/api-docs`);
-  console.log(`README documentation available at ${DOMAIN}/readme`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port ${PORT}`);
+//   console.log(`Swagger documentation available at ${DOMAIN}/api-docs`);
+//   console.log(`README documentation available at ${DOMAIN}/readme`);
+// });
+export default app;
