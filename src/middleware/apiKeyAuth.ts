@@ -13,7 +13,13 @@ export const validateApiKey = (
   res: Response,
   next: NextFunction
 ) => {
-  const providedApiKey = req.headers["x-api-key"] as string; // Get API key from header
+  const authHeader = req.headers["authorization"]; // Get the Authorization header
+  let providedToken: string | null = null;
+
+  // Check if the header exists and has the Bearer scheme
+  if (authHeader && authHeader.startsWith("Bearer ")) {
+    providedToken = authHeader.substring(7); // Extract the token after "Bearer "
+  }
 
   // Check if the environment variable is set and contains any keys
   if (!API_KEYS_STRING || VALID_API_KEYS.length === 0) {
@@ -23,10 +29,13 @@ export const validateApiKey = (
       .json({ message: "Internal Server Error: API Keys not configured" });
   }
 
-  // Check if the provided key is included in the list of valid keys
-  if (!providedApiKey || !VALID_API_KEYS.includes(providedApiKey)) {
-    return res.status(401).json({ message: "Unauthorized: Invalid API Key" });
+  // Check if a token was provided and if it's included in the list of valid keys
+  if (!providedToken || !VALID_API_KEYS.includes(providedToken)) {
+    // Customize error message for missing/invalid Bearer token
+    return res
+      .status(401)
+      .json({ message: "Unauthorized: Invalid or missing Bearer token" });
   }
 
-  next(); // API Key is valid
+  next(); // API Key (Token) is valid
 };
